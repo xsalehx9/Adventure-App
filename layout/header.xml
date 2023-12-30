@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:padding="20dp"
+    android:background="@color/light_yalow"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="177dp"
+        android:layout_height="138dp"
+        android:layout_gravity="center"
+        android:src="@drawable/horizon_logo"></ImageView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-20dp"
+        android:text="Lets Explore Oman"
+        android:textSize="18dp"
+        android:textColor="@color/orange"
+        android:textStyle="bold"
+        android:layout_gravity="center">
+
+    </TextView>
+
+</LinearLayout>

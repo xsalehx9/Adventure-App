@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2"
+    tools:context="com.Horizon_Adventure_App.Activity.AboutApp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="181dp"
+        android:src="@drawable/horizon_logo" />
+
+    <TextView
+        android:id="@+id/AboutUs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/timesnr"
+        android:gravity="center"
+        android:text="About Us"
+        android:textSize="30dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/SubAboutUs"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/timesnr"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="Welcome to Horizon Adventure App, where adventure meets discovery in the breathtaking landscapes of Oman. We are more than just a tour company; we are your gateway to unparalleled experiences, weaving together nature, culture, and adrenaline-pumping activities."
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/Our_Mission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/timesnr"
+        android:gravity="center"
+        android:text="Our Mission"
+        android:textSize="30dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/timesnr"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="At Horizon Adventure App, our mission is to provide unforgettable adventures that not only exhilarate the spirit but also foster a deep appreciation for the wonders of Oman. We strive to create meaningful connections between people and the diverse landscapes of this beautiful country."
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/Our_Adventures"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/timesnr"
+        android:gravity="center"
+        android:text="Our Adventures"
+        android:textSize="30dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="209dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/timesnr"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="Whether you're craving the thrill of scaling rocky cliffs, the serenity of a desert sunset, or the cultural richness of ancient traditions, [Your Company Name] has an adventure for every explorer. Choose from a range of activities, including hiking, camping, water sports, and more."
+        android:textSize="15dp" />
+
+</LinearLayout>

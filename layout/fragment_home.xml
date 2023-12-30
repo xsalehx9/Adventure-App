@@ -1,0 +1,140 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_login"
+    android:orientation="vertical"
+    tools:context="com.Horizon_Adventure_App.Activity.HomeFragment">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="156dp"
+        android:src="@drawable/horizon_logo" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/timesnr"
+        android:gravity="center"
+        android:text="Select Category of\n Your Adventure"
+        android:textSize="40dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/Desert"
+                android:layout_width="46dp"
+                android:layout_height="44dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/desert" />
+
+            <Button
+                android:id="@+id/buttonR"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@id/Desert"
+                android:fontFamily="@font/timesnr"
+                android:text="Desert Adventure"
+                android:textSize="16dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@id/buttonR"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/darker_gray"/>
+
+            <ImageView
+                android:id="@+id/Paragliding"
+                android:layout_width="46dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="110dp"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/paragliding" />
+
+            <Button
+                android:id="@+id/buttonT"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/buttonR"
+                android:layout_marginTop="40dp"
+                android:layout_toEndOf="@id/Desert"
+                android:fontFamily="@font/timesnr"
+                android:text="Paragliding Adventure"
+                android:textSize="13dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@id/buttonT"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/darker_gray"/>
+
+
+            <!-- Mountains -->
+            <ImageView
+                android:id="@+id/Mountains"
+                android:layout_width="46dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="200dp"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/mountain" />
+
+            <Button
+                android:id="@+id/buttonSupp"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/buttonT"
+                android:layout_marginTop="40dp"
+                android:layout_toEndOf="@id/Desert"
+                android:fontFamily="@font/timesnr"
+                android:text="Mountains Adventure"
+                android:textSize="15dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@id/buttonSupp"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/darker_gray"/>
+
+            <!-- Sea -->
+            <ImageView
+                android:id="@+id/Sea"
+                android:layout_width="46dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="285dp"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/sea" />
+
+            <Button
+                android:id="@+id/buttonD"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/buttonSupp"
+                android:layout_marginTop="40dp"
+                android:layout_toEndOf="@id/Desert"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/timesnr"
+                android:text="Sea Adventure"
+                android:textSize="16dp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
